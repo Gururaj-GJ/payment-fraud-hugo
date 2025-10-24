@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Payments on Payment Fraud Explained</title>
+    <link>http://localhost:1313/tags/payments/</link>
+    <description>Recent content in Payments on Payment Fraud Explained</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Oct 2025 12:00:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/payments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Payment Fraud Really Works</title>
+      <link>http://localhost:1313/posts/how-payment-fraud-really-works/</link>
+      <pubDate>Fri, 24 Oct 2025 12:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/how-payment-fraud-really-works/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/hero-banner.svg&#34; alt=&#34;Payment Fraud Banner&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Payment fraud is a multi-billion dollar problem affecting businesses worldwide. Every week I investigate schemes that sound different on the surface but share the same playbook: &lt;strong&gt;create urgency, intercept trust, and move value fast&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-scale-of-the-problem&#34;&gt;The Scale of the Problem&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/stats-graphic.svg&#34; alt=&#34;Statistics&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;According to recent studies:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;$32B+&lt;/strong&gt; Global payment fraud losses annually&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;400%&lt;/strong&gt; Increase in SIM swap attacks (2024)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;4 minutes&lt;/strong&gt; Average time to complete OTP fraud&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;common-attack-vectors&#34;&gt;Common Attack Vectors&lt;/h2&gt;&#xA;&lt;h3 id=&#34;-phone-social-engineering&#34;&gt;📞 Phone Social Engineering&lt;/h3&gt;&#xA;&lt;p&gt;Pretend to be bank staff and ask for OTP to &amp;ldquo;unlock&amp;rdquo; account. Uses data breach information to build credibility.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

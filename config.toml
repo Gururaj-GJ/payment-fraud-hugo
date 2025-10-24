@@ -1,0 +1,12 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Payment Fraud Explained"
+
+[params]
+  author = "Gururaj GJ"
+  description = "Comprehensive guide to understanding and preventing payment fraud"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

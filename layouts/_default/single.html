@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="content">
+    <header class="header">
+        <h1>{{ .Title }}</h1>
+        <div class="subtitle">
+            Published on {{ .Date.Format "January 2, 2006" }}
+        </div>
+    </header>
+    <article>
+        {{ .Content }}
+    </article>
+    <div class="author-box">
+        <strong>About the Author</strong>
+        <p>{{ .Site.Params.author }} is a Fraud and Risk Specialist with 6+ years of experience in preventing payment abuse across e-commerce and fintech platforms.</p>
+    </div>
+</div>
+{{ end }}

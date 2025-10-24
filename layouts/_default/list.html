@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="content">
+    <header class="header">
+        <h1>{{ .Site.Title }}</h1>
+        <div class="subtitle">{{ .Site.Params.description }}</div>
+    </header>
+    <section>
+        {{ range .Pages }}
+        <article style="border: 1px solid #eee; padding: 20px; margin: 20px 0; border-radius: 8px;">
+            <h2>
+                <a href="{{ .Permalink }}" style="text-decoration: none; color: #6366f1;">
+                    {{ .Title }}
+                </a>
+            </h2>
+            <p style="color: #666; margin: 10px 0;">{{ .Date.Format "January 2, 2006" }}</p>
+            <p>{{ .Description }}</p>
+            <a href="{{ .Permalink }}" style="color: #6366f1; text-decoration: none; font-weight: 600;">Read more →</a>
+        </article>
+        {{ end }}
+    </section>
+</div>
+{{ end }}

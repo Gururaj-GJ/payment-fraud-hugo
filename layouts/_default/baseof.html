@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+    <header class="nav">
+        <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    </header>
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+    <footer class="footer">
+        <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. All rights reserved.</p>
+        <p>Stay vigilant, stay secure.</p>
+    </footer>
+</body>
+</html>
